@@ -6,182 +6,24 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Stier Vente Associates | Chartered Accountants, Windhoek</title>
 <meta name="description" content="Stier Vente Associates Chartered Accountants: audit, tax and an accredited training office, at 50 Olof Palme Street, Klein Windhoek.">
-<meta name="theme-color" content="#12332b">
+<meta name="theme-color" content="#0d3b44">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-:root{
-  /* Deep green and brass on ivory: the quiet register of an audit practice, distinct from the navy used for law firms. */
-  --green:#12332b; --green-2:#1b4a3f; --green-mid:#2c5c50; --green-soft:#9db8b1;
-  --brass:#d4ad5a; --ivory:#f7f5ef; --white:#fff; --ink:#14201c; --slate:#475550;
-  --line:rgba(255,255,255,.2); --line-d:rgba(20,32,28,.16); --mute:#c8d2ce;
-  --serif:"Newsreader",Georgia,"Times New Roman",serif;
-  --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --pad:clamp(24px,5vw,72px); --max:1200px;
-}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:96px}
-body{font-family:var(--sans);background:var(--ivory);color:var(--ink);line-height:1.65;font-size:16px;overflow-x:hidden;-webkit-font-smoothing:antialiased}
-img{display:block;max-width:100%}
-a{color:inherit;text-decoration:none}
-button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
-::selection{background:var(--brass);color:var(--green)}
-:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
-header :focus-visible,
-.hero :focus-visible,
-.facts :focus-visible,
-.dark :focus-visible,
-.callbox :focus-visible,
-footer :focus-visible{outline-color:var(--brass)}
-.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
-h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.1;text-wrap:balance}
-h1{letter-spacing:-.025em}
-h2{font-size:clamp(2rem,4vw,3rem);letter-spacing:-.02em}
-h3{font-size:1.875rem;letter-spacing:-.01em}
-.eyebrow{font-size:.8125rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--green-mid)}
-.dark .eyebrow{color:var(--green-soft)}
-.skip{position:absolute;left:-999px;top:0;background:var(--white);color:var(--green);padding:12px 16px;z-index:300}
-.skip:focus{left:16px;top:16px}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;font-weight:600;font-size:1rem;border:2px solid var(--line);transition:background .25s,color .25s,border-color .25s}
-.btn.fill{background:var(--brass);color:var(--green);border-color:var(--brass)}
-.btn.fill:hover{background:var(--white);border-color:var(--white)}
-.btn.ghost{color:var(--white);border-color:var(--line)}
-.btn.ghost:hover{background:var(--white);color:var(--green);border-color:var(--white)}
-.btn:active{transform:translateY(1px)}
-
-/* wordmark: set in type, a placeholder until the firm supplies its own logo */
-.mark{display:flex;align-items:center;gap:16px;min-width:0}
-.mono{flex:none;width:48px;height:48px;display:grid;place-items:center;border:1.5px solid var(--green-soft);color:var(--green-soft);font-family:var(--serif);font-size:1.25rem;letter-spacing:.04em}
-.mark .nm{font-family:var(--serif);color:var(--white);font-size:1.25rem;line-height:1.1;letter-spacing:.01em}
-.mark .nm small{display:block;font:600 .8125rem var(--sans);letter-spacing:.14em;color:var(--green-soft);margin-top:4px;text-transform:uppercase}
-
-header{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--green);border-bottom:1px solid var(--line);transition:top .35s}
-header.hide{top:-81px}
-.nav{display:flex;align-items:center;justify-content:space-between;height:80px;gap:24px}
-.links{display:flex;gap:32px;align-items:center}
-.links a{color:var(--mute);font-size:1rem;padding:12px 0;text-decoration:underline transparent 2px;text-underline-offset:8px;transition:color .25s,text-decoration-color .25s}
-.links a:hover{color:var(--white);text-decoration-color:var(--white)}
-.links .btn{color:var(--white);min-height:48px;padding:8px 16px;text-decoration:none;background:transparent;border-color:var(--line)}
-.links .btn:hover{background:var(--white);border-color:var(--white);color:var(--green)}
-#burger{display:none;width:48px;height:48px;position:relative;z-index:2}
-#burger i{position:absolute;left:12px;right:12px;height:2px;background:var(--white);transition:transform .3s,top .3s}
-#burger i:first-child{top:18px}#burger i:last-child{top:28px}
-.open #burger i:first-child{top:23px;transform:rotate(45deg)}
-.open #burger i:last-child{top:23px;transform:rotate(-45deg)}
-
-/* hero */
-.hero{background:var(--green);color:var(--white);display:grid;grid-template-columns:1.1fr .9fr;min-height:92svh;padding-top:80px}
-.hero .copy{padding:clamp(48px,8vw,112px) clamp(24px,5vw,72px) clamp(48px,7vw,88px) max(var(--pad),calc((100vw - var(--max))/2 + var(--pad)));display:flex;flex-direction:column;justify-content:center}
-.hero h1{font-size:clamp(3rem,5.4vw,4.5rem);max-width:13ch;margin:16px 0 24px}
-.hero h1 em{font-style:italic;color:var(--brass)}
-.hero p.lead{max-width:520px;color:var(--mute);font-size:1.125rem}
-.cta{display:flex;gap:16px;flex-wrap:wrap;margin-top:32px}
-.hero .pic{position:relative;min-height:336px}
-.hero .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%;filter:saturate(.6)}
-.hero .pic::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--green) 0,rgba(18,51,43,0) 24%)}
-
-/* facts strip */
-.facts{background:var(--green-2);color:var(--white);border-top:1px solid var(--line)}
-.facts ul{list-style:none;display:grid;grid-template-columns:repeat(3,1fr)}
-.facts li{padding:24px 32px 24px 0;font-size:1rem;color:var(--mute)}
-.facts li+li{padding-left:32px;border-left:1px solid var(--line)}
-.facts b{display:block;font-family:var(--serif);font-weight:400;font-size:1.75rem;color:var(--white);margin-bottom:4px}
-
-/* services */
-.services{padding:clamp(80px,11vw,144px) 0;background:var(--ivory)}
-.services h2{margin:16px 0;max-width:18ch}
-.services .sub{color:var(--slate);max-width:560px}
-.svc{display:grid;grid-template-columns:repeat(3,1fr);margin-top:56px;border-top:2px solid var(--green)}
-.svc article{padding:32px 32px 32px 0}
-.svc article+article{padding-left:32px;border-left:1px solid var(--line-d)}
-.svc .n{font-family:var(--serif);font-size:2rem;line-height:1;color:var(--green-mid)}
-.svc h3{margin:16px 0 8px}
-.svc p{color:var(--slate)}
-
-/* registered */
-.reg{background:var(--green);color:var(--white);padding:clamp(80px,11vw,144px) 0}
-.reg .grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,6vw,96px);align-items:start}
-.reg h2{margin:16px 0}
-.reg .lede{color:var(--mute);max-width:432px}
-.reg ul{list-style:none;border-top:1px solid var(--line)}
-.reg li{display:grid;grid-template-columns:1fr auto;gap:16px;padding:24px 0;border-bottom:1px solid var(--line);align-items:baseline}
-.reg li h3{font-size:1.75rem}
-.reg li p{color:var(--mute);font-size:1rem;margin-top:4px}
-.reg li a{color:var(--green-soft);font-weight:600;font-size:1rem;text-decoration:underline;text-underline-offset:8px;padding:16px 0;white-space:nowrap}
-.reg li a:hover{color:var(--brass)}
-
-/* training */
-.train{position:relative;overflow:hidden;color:var(--white);padding:clamp(96px,12vw,168px) 0}
-.train>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 60%;filter:saturate(.6)}
-.train::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(18,51,43,.78) 0%,rgba(18,51,43,.72) 32%,rgba(18,51,43,.35) 58%,rgba(18,51,43,.22) 100%)}
-.train .wrap{position:relative;z-index:2}
-.train h2{margin:16px 0;max-width:17ch}
-.train p.t{color:var(--mute);max-width:560px;font-size:1.125rem}
-
-/* contact */
-.contact{padding:clamp(80px,11vw,144px) 0 0;background:var(--ivory)}
-.contact .grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,96px);align-items:start}
-.contact h2{margin:16px 0 32px}
-.dl div{display:grid;grid-template-columns:112px 1fr;gap:16px;padding:16px 0;border-top:1px solid var(--line-d)}
-.dl dt{font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:var(--green-mid);padding-top:8px}
-.dl dd{font-family:var(--serif);font-size:1.75rem;line-height:1.35}
-.dl dd a{text-decoration:underline var(--line-d) 1px;text-underline-offset:8px;display:inline-block;padding:8px 0}
-.dl dd a:hover{text-decoration-color:var(--green-mid)}
-.dl dd small{display:block;font-family:var(--sans);font-size:1rem;color:var(--slate);margin-top:4px}
-.callbox{background:var(--green);color:var(--white);padding:clamp(32px,3.6vw,48px)}
-.callbox h3{margin-bottom:8px}
-.callbox p{color:var(--mute);margin-bottom:24px}
-.callbox .btn{width:100%;margin-top:8px}
-.map{margin-top:clamp(64px,8vw,112px);background:var(--green-2);position:relative;overflow:hidden}
-.map iframe{display:block;width:100%;height:416px;border:0;filter:grayscale(1) contrast(1.08) brightness(.9) sepia(.4) hue-rotate(105deg) saturate(.5)}
-.map::after{content:"";position:absolute;inset:0;pointer-events:none;background:var(--green);opacity:.2;mix-blend-mode:multiply}
-
-footer{background:var(--green);color:var(--mute);padding:48px 0 32px}
-.fb{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
-.fb a.top{text-decoration:underline;text-underline-offset:4px;padding:12px 0}
-.fb a.top:hover{color:var(--white)}
-.credits{font-size:.8125rem;margin-top:24px;line-height:1.7;max-width:900px;border-top:1px solid var(--line);padding-top:16px}
-.credits a{text-decoration:underline}
-
-@media (max-width:1000px){.svc{grid-template-columns:1fr}.svc article{padding:32px 0}.svc article+article{padding-left:0;border-left:0;border-top:1px solid var(--line-d)}}
-@media (max-width:900px){
-  #burger{display:block;z-index:2}
-  .links{position:fixed;inset:0;z-index:1;background:var(--green);flex-direction:column;justify-content:center;gap:24px;visibility:hidden;opacity:0;pointer-events:none;transition:opacity .25s,visibility 0s .25s}
-  .open .links{visibility:visible;opacity:1;pointer-events:auto;transition:opacity .25s}
-  .links a{font-family:var(--serif);font-size:1.875rem;color:var(--white)}
-  .links .btn{font-family:var(--sans);font-size:1rem;margin-top:16px}
-  .hero{grid-template-columns:1fr;min-height:0}
-  .hero .copy{padding:40px var(--pad) 56px}
-  .hero .pic{min-height:280px;order:-1}
-  .hero .pic::after{background:linear-gradient(0deg,var(--green) 0,rgba(18,51,43,0) 40%)}
-  .facts ul{grid-template-columns:1fr}
-  .facts li,.facts li+li{padding:16px 0;border-left:0}
-  .facts li+li{border-top:1px solid var(--line)}
-  .reg .grid,.contact .grid{grid-template-columns:1fr}
-  .dl div{grid-template-columns:1fr;gap:8px}
-  .reg li{grid-template-columns:1fr;gap:8px}
-  .train::before{background:linear-gradient(0deg,rgba(18,51,43,.78) 0%,rgba(18,51,43,.7) 42%,rgba(18,51,43,.28) 100%)}
-}
-@media (max-width:560px){.mark .nm{font-size:1.125rem}}
-@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:.01ms!important;scroll-behavior:auto!important}}
-</style>
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
 <header id="hdr">
   <div class="wrap nav">
-    <a href="#top" class="mark" aria-label="Stier Vente Associates, back to top">
+    <a href="index.html" class="mark" aria-label="Stier Vente Associates, home">
       <span class="mono" aria-hidden="true">SVA</span>
       <span class="nm">Stier Vente Associates<small>Chartered Accountants</small></span>
     </a>
     <nav class="links" id="links" aria-label="Main">
-      <a href="#services">Services</a>
-      <a href="#registered">Registered</a>
-      <a href="#training">Training office</a>
-      <a href="#contact">Contact</a>
+      <a href="services.html">Services</a><a href="standing.html">Standing</a><a href="training.html">Training office</a><a href="contact.html">Contact</a>
       <a href="tel:+26461258371" class="btn">Call 061 258 371</a>
     </nav>
     <button id="burger" aria-label="Menu" aria-expanded="false" aria-controls="links"><i></i><i></i></button>
@@ -196,7 +38,7 @@ footer{background:var(--green);color:var(--mute);padding:48px 0 32px}
     <h1>Audit and tax, <em>done carefully.</em></h1>
     <p class="lead">Stier Vente Associates is a registered audit firm in Windhoek, serving clients from 50 Olof Palme Street, Klein Windhoek.</p>
     <div class="cta">
-      <a href="#contact" class="btn fill">Contact the firm</a>
+      <a href="contact.html" class="btn fill">Contact the firm</a>
       <a href="tel:+26461258371" class="btn ghost">Call 061 258 371</a>
     </div>
   </div>
@@ -213,60 +55,38 @@ footer{background:var(--green);color:var(--mute);padding:48px 0 32px}
   </div>
 </section>
 
-<section class="services" id="services">
+<section class="services">
   <div class="wrap">
     <p class="eyebrow">Services</p>
     <h2>Two disciplines, one firm.</h2>
-    <p class="sub">The firm's teams work in audit and in taxation. Speak to the office about the engagement you need.</p>
+    <p class="sub">The firm's teams work in audit and in taxation, and train the next generation of accountants. Speak to the office about the engagement you need.</p>
     <div class="svc">
-      <article><span class="n">01</span><h3>Audit and assurance</h3><p>Audit engagements planned and directed by a team of audit seniors, supervisors and managers.</p></article>
-      <article><span class="n">02</span><h3>Taxation</h3><p>Tax consulting across the areas of taxation that businesses and individuals deal with.</p></article>
-      <article><span class="n">03</span><h3>Professional training</h3><p>A training office that develops the next generation of Namibian chartered accountants.</p></article>
+      <article><span class="n">01</span><h3><a href="services.html#audit">Audit and assurance</a></h3><p>Audit engagements planned and directed by a team of audit seniors, supervisors and managers.</p><a class="more" href="services.html#audit">How an audit works</a></article>
+      <article><span class="n">02</span><h3><a href="services.html#tax">Taxation</a></h3><p>Tax consulting across the areas of taxation that businesses and individuals deal with.</p><a class="more" href="services.html#tax">Areas we advise on</a></article>
+      <article><span class="n">03</span><h3><a href="training.html">Professional training</a></h3><p>A training office that develops the next generation of Namibian chartered accountants.</p><a class="more" href="training.html">The training office</a></article>
     </div>
   </div>
 </section>
 
-<section class="reg dark" id="registered">
+<section class="reg dark">
   <div class="wrap grid">
     <div>
       <p class="eyebrow">Standing</p>
       <h2>Listed with the profession's regulators.</h2>
-      <p class="lede">Every entry below is a public register. Each one links to the source.</p>
+      <p class="lede">Every entry is a public register, and each one links to the source.</p>
     </div>
     <ul>
-      <li><div><h3>Public Accountants and Auditors Board</h3><p>Registered firm, and accredited training office in public practice.</p></div><a href="https://paab.com.na/page/training-offices" rel="noopener">View the PAAB list</a></li>
-      <li><div><h3>Institute of Chartered Accountants of Namibia</h3><p>Listed in the Institute's professional services directory.</p></div><a href="https://ican.com.na/professional-services/" rel="noopener">View the ICAN directory</a></li>
+      <li><div><h3>Public Accountants and Auditors Board</h3><p>Registered firm, and accredited training office in public practice.</p></div><a href="standing.html">Details</a></li>
+      <li><div><h3>Institute of Chartered Accountants of Namibia</h3><p>Listed in the Institute's professional services directory.</p></div><a href="standing.html">Details</a></li>
     </ul>
   </div>
 </section>
 
-<section class="train dark" id="training">
-  <img src="assets/windhoek.jpg" srcset="assets/windhoek-800.jpg 800w, assets/windhoek-1400.jpg 1400w, assets/windhoek.jpg 1920w" sizes="100vw" width="1920" height="1080" loading="lazy" alt="Windhoek seen from the air, with the Khomas highlands beyond">
+<section class="band dark">
   <div class="wrap">
-    <p class="eyebrow">Training office</p>
-    <h2>Where trainee accountants earn their experience.</h2>
-    <p class="t">As an accredited training office, the firm trains aspiring chartered accountants in public practice, alongside the audit and tax work it does for clients.</p>
+    <h2>Start with a phone call to the office.</h2>
+    <a href="contact.html" class="btn fill">Visit or call</a>
   </div>
-</section>
-
-<section class="contact" id="contact">
-  <div class="wrap grid">
-    <div>
-      <p class="eyebrow">Contact</p>
-      <h2>Visit or call the office.</h2>
-      <dl class="dl">
-        <div><dt>Office</dt><dd>50 Olof Palme Street<small>Klein Windhoek, Windhoek</small></dd></div>
-        <div><dt>Telephone</dt><dd><a href="tel:+26461258371">+264 61 258 371</a><br><a href="tel:+26461264440">+264 61 264 440</a></dd></div>
-      </dl>
-    </div>
-    <div class="callbox">
-      <h3>Talk to the firm directly.</h3>
-      <p>The quickest way to start an audit or tax engagement is a phone call to the office.</p>
-      <a class="btn fill" href="tel:+26461258371">Call +264 61 258 371</a>
-      <a class="btn ghost" href="tel:+26461264440">Call +264 61 264 440</a>
-    </div>
-  </div>
-  <div class="map"><iframe title="Map showing 50 Olof Palme Street, Klein Windhoek" width="1200" height="416" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=50+Olof+Palme+Street,+Klein+Windhoek,+Namibia&z=16&output=embed"></iframe></div>
 </section>
 
 </main>
@@ -277,23 +97,9 @@ footer{background:var(--green);color:var(--mute);padding:48px 0 32px}
       <span class="mark"><span class="mono" aria-hidden="true">SVA</span><span class="nm">Stier Vente Associates<small>Chartered Accountants</small></span></span>
       <a class="top" href="#top">Back to top</a>
     </div>
-    <p class="credits">Design concept prepared for Stier Vente Associates. It is not yet the firm's official website. The wordmark is a typeset placeholder, because the firm's own logo was not available online; it is to be replaced with the firm's real logo. Address and telephone numbers are from the Brabys and ICAN directories. Photography via Wikimedia Commons: “Christ Church in Windhoek, Namibia” by Christoph Strässler (<a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="noopener">CC BY-SA 2.0</a>); “Windhoek Luftaufnahme” by Hp.Baumeler (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>). Images resized and toned.</p>
+    <p class="credits">Design concept prepared for Stier Vente Associates. It is not yet the firm's official website. The wordmark is a typeset placeholder, because the firm's own logo was not available online; it is to be replaced with the firm's real logo. Address and telephone numbers are from the Brabys and ICAN directories. Descriptions of services and process are general and illustrative, to be confirmed by the firm. Photography via Wikimedia Commons: &ldquo;Christ Church in Windhoek, Namibia&rdquo; by Christoph Str&auml;ssler (<a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="noopener">CC BY-SA 2.0</a>); &ldquo;Windhoek Luftaufnahme&rdquo; by Hp.Baumeler (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>). Images resized and toned.</p>
   </div>
 </footer>
-
-<script>
-(()=>{
-const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
-const hdr=$('#hdr'), burger=$('#burger'); let last=0, tick=false;
-const closeMenu=()=>{hdr.classList.remove('open');burger.setAttribute('aria-expanded','false');document.body.style.overflow=''};
-burger.addEventListener('click',()=>{const o=hdr.classList.toggle('open');burger.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':''});
-$$('#links a').forEach(a=>a.addEventListener('click',closeMenu));
-addEventListener('keydown',e=>{if(e.key==='Escape'&&hdr.classList.contains('open')){closeMenu();burger.focus()}});
-addEventListener('scroll',()=>{if(tick)return;tick=true;requestAnimationFrame(()=>{const y=scrollY;
-  if(!hdr.classList.contains('open')&&!hdr.contains(document.activeElement))hdr.classList.toggle('hide',y>last&&y>500);
-  last=y;tick=false})},{passive:true});
-hdr.addEventListener('focusin',()=>hdr.classList.remove('hide'));
-})();
-</script>
+<script src="assets/site.js"></script>
 </body>
 </html>
