@@ -40,6 +40,7 @@ h3{font-size:1.875rem;letter-spacing:-.01em}
 /* wordmark: set in type, a placeholder until the firm supplies its own logo */
 .mark{display:flex;align-items:center;gap:16px;min-width:0}
 .mono{flex:none;width:48px;height:48px;display:grid;place-items:center;border:1.5px solid var(--green-soft);color:var(--green-soft);font-family:var(--serif);font-size:1.25rem;letter-spacing:.04em}
+.logo{flex:none;width:48px;height:48px}
 .mark .nm{font-family:var(--serif);color:var(--white);font-size:1.25rem;line-height:1.1;letter-spacing:.01em}
 .mark .nm small{display:block;font:600 .8125rem var(--sans);letter-spacing:.14em;color:var(--green-soft);margin-top:4px;text-transform:uppercase}
 
@@ -133,6 +134,8 @@ footer{background:var(--green);color:var(--mute);padding:48px 0 32px}
 .credits a{text-decoration:underline}
 
 /* inner pages */
+.hero.short{min-height:64svh}
+.hero.short .pic img{object-position:50% 55%}
 .phead{background:var(--green);color:var(--white);padding:calc(80px + clamp(56px,8vw,112px)) 0 clamp(56px,7vw,96px);border-bottom:1px solid var(--line)}
 .phead h1{font-size:clamp(2.5rem,5vw,4rem);max-width:20ch;margin:16px 0 20px;letter-spacing:-.025em}
 .phead h1 em{font-style:italic;color:var(--brass)}
