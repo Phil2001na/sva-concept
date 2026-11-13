@@ -135,7 +135,7 @@ footer{background:var(--green);color:var(--mute);padding:48px 0 32px}
 
 /* inner pages */
 .hero.short{min-height:64svh}
-.hero.short .pic img{object-position:50% 55%}
+.hero.short .pic img{object-position:50% 60%;filter:saturate(.4)}
 .phead{background:var(--green);color:var(--white);padding:calc(80px + clamp(56px,8vw,112px)) 0 clamp(56px,7vw,96px);border-bottom:1px solid var(--line)}
 .phead h1{font-size:clamp(2.5rem,5vw,4rem);max-width:20ch;margin:16px 0 20px;letter-spacing:-.025em}
 .phead h1 em{font-style:italic;color:var(--brass)}
